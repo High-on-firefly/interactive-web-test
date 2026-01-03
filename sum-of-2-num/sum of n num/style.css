@@ -1,0 +1,22 @@
+#inputs_container_warpper{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: .5rem;
+}
+
+.enter_input{
+    margin-top: .5rem;
+    margin-right: .5rem;
+    border: none;
+    text-align: center;
+    font-size: 1.5rem ;
+    width: 11rem;
+    background-color: rgb(100, 136, 255);
+    border-radius: 999px;
+}
+
+#addBtn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
