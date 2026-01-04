@@ -21,6 +21,12 @@ body{
     margin-right: auto;
     font-size: 2rem;
 }
+@media (max-width: 768px){
+    .logo{
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}
 .navlist{
     display: flex;
     flex-wrap: wrap;
@@ -28,6 +34,11 @@ body{
     list-style-type: none;
     align-items: center;
     font-family: 'Questrial', sans-serif;
+}
+@media (max-width: 768px) {
+    .navlist{
+        display: none;
+    }
 }
 .navlist1{
     display: flex;
@@ -109,4 +120,10 @@ body{
     margin: 1rem 10rem 1rem;
     color:  rgb(117, 63, 243);
     font-family: 'Inter', sans-serif;;
+}
+@media (max-width:768px) {
+    .section1 h1, .section1 p{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 }
