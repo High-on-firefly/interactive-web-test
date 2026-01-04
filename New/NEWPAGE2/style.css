@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+.hero{
+    background-image: url(media/1.png);
+    min-height: 75vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.logo{
+    color: white;
+    font-family: 'Lobster', cursive;
+    margin-top: .4rem;
+    margin-right: auto;
+    font-size: 2rem;
+}
+.navlist{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: .4rem;
+    list-style-type: none;
+    align-items: center;
+    font-family: 'Questrial', sans-serif;
+}
+.navlist1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navlist1 a{
+    display: inline-block;
+    color: white;
+    margin-top: .1rem;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+}
+.navlist1 a:hover{
+    text-decoration: underline;
+    color: rgb(85, 26, 221);
+    background-color: black;
+    border-radius: 999px;
+}
+.signup a{
+    display: block;
+    color: white;
+    border: 2px solid white;
+    border-radius: 999px;
+    padding: 0.5rem 1.2rem;
+    text-align: center;
+}
+.signup a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.signup:hover{
+    background-color: white;
+    border-radius: 999px;
+}
+.hero-main{
+    text-align: center;
+}
+.hero-main h1{
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 1px solid white;
+    margin-top: 10%;
+    margin-bottom: 0;
+    color: white;
+}
+.hero-main p{
+    margin-top: .3rem;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+}
+.hero-main a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 999px;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5rem;
+    padding: .5rem 3rem; 
+}
+.hero-main a:hover{
+    text-decoration: underline;
+    background-color: black;
+    color: rgb(85, 26, 221);
+}
