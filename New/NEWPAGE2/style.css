@@ -69,16 +69,15 @@ body{
     display: inline-block;
     font-family: 'Dancing Script', cursive;
     border-bottom: 1px solid white;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: 0;
     color: white;
 }
 .hero-main p{
-    margin-top: .3rem;
-    color: white;
+    margin: 0.3rem 3rem 0.6rem;
+    color: #fff;
     font-family: 'Questrial', sans-serif;
     font-size: 2rem;
-    margin-bottom: 0.6rem;
 }
 .hero-main a{
     display: inline-block;
@@ -94,4 +93,20 @@ body{
     text-decoration: underline;
     background-color: black;
     color: rgb(85, 26, 221);
+}
+.section1{
+    padding: 3rem 0;
+    background-color: rgb(228, 217, 255);;
+}
+.section1 h1{
+    text-transform: capitalize;
+    margin: 0 10rem;
+    color: rgb(117, 63, 243);
+    text-align: center;
+}
+.section1 p{
+    text-align: center;
+    margin: 1rem 10rem 1rem;
+    color:  rgb(117, 63, 243);
+    font-family: 'Inter', sans-serif;;
 }
