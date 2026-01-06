@@ -73,3 +73,9 @@ body {
     padding: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.grid-container{
+    display: grid;
+    text-align: center;
+    grid-template-columns: auto auto auto;
+}
