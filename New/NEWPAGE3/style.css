@@ -85,11 +85,12 @@ body{
         top: 0;
         width: 40vw;
         height: 100vh;
-        transform: translateX(-100%);
+        transform: translateX(-110%);
         transition: transform 0.3s ease;
         font-family: 'Questrial', sans-serif;
         background-color: white;
         border-radius: 0  5px 5px 0;
+        box-shadow: 2px 0 12px #a77c9a;
     }
     .mob-nav.open{
         transform: translateX(0);
