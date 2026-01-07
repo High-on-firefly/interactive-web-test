@@ -66,6 +66,7 @@ body{
     background-color: white;
     border-radius: 0 5px 5px 0;
     box-shadow: 2px 0 12px #a77c9a;
+    z-index: 1;
 }
 
 .mob-nav.open{
@@ -103,6 +104,52 @@ body{
     border: none;
     border-radius: 5px;
     font-size: 2rem;
+}
+/* section01 */
+.grid01{
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    aspect-ratio: 1/1;
+    margin-block: 10rem;
+    margin-inline: 2rem;
+    padding: .5rem;
+}
+.grid01 div{
+    margin: 0;
+    background-color: #ffffff38;
+    min-height: 5rem;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    display: grid;
+    font-size: 1.8rem;
+    place-content: center;
+    /* Glass effect */
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.25),
+        inset 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+#i1{
+    grid-row: span 2;
+}
+#i2{
+    grid-column: span 2;
+}
+#i3{
+    font-size: 4rem;
+}
+#i4{
+    grid-row: span 2;
+}
+#i5{
+    grid-column: span 2;
 }
 @media (min-width: 769px){
 
@@ -145,5 +192,14 @@ body{
     .logo{
         margin-right: auto;
         margin-left: 0;
+    }
+    .section01{
+        max-width: 1200px;
+        margin-inline: auto;
+        padding-inline: 1rem;
+    }
+    .grid01{
+        margin-inline: 0;
+        max-width: 20vw;
     }
 }
